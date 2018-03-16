@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.0-RC6" sequence="0" timestamp="1521178827776" analysisTimestamp="1521178898943" release="">
+  <Project>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\CacheAny.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\CacheShirt.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\CacheString.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\Shirt.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\Stack.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\StackTest.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\TestCacheAny.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\TestCacheAnyDiamond.class</Jar>
+    <Jar>C:\Users\Training\IdeaProjects\coding-style\target\classes\com\example\generics\TestCacheObject.class</Jar>
+    <AuxClasspathEntry>C:\Users\Training\IdeaProjects\coding-style\target\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Training\IdeaProjects\coding-style\target\sonar\findbugs\annotations.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\Training\IdeaProjects\coding-style\target\sonar\findbugs\jsr305.jar</AuxClasspathEntry>
+    <WrkDir>C:\Users\Training\IdeaProjects\coding-style\target\sonar</WrkDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 16 Mar 2018 11:10:27 +0530" total_classes="9" referenced_classes="21" total_bugs="0" total_size="142" num_packages="1" java_version="1.8.0_161" vm_version="25.161-b12" cpu_seconds="28.78" clock_seconds="11.36" peak_mbytes="370.16" alloc_mbytes="3625.00" gc_seconds="0.16">
+    <FileStats path="com/example/generics/CacheAny.java" bugCount="0" size="9"/>
+    <FileStats path="com/example/generics/CacheShirt.java" bugCount="0" size="9"/>
+    <FileStats path="com/example/generics/CacheString.java" bugCount="0" size="9"/>
+    <FileStats path="com/example/generics/Shirt.java" bugCount="0" size="46"/>
+    <FileStats path="com/example/generics/Stack.java" bugCount="0" size="14"/>
+    <FileStats path="com/example/generics/StackTest.java" bugCount="0" size="19"/>
+    <FileStats path="com/example/generics/TestCacheAny.java" bugCount="0" size="14"/>
+    <FileStats path="com/example/generics/TestCacheAnyDiamond.java" bugCount="0" size="11"/>
+    <FileStats path="com/example/generics/TestCacheObject.java" bugCount="0" size="11"/>
+    <PackageStats package="com.example.generics" total_bugs="0" total_types="9" total_size="142">
+      <ClassStats class="com.example.generics.CacheAny" sourceFile="CacheAny.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.example.generics.CacheShirt" sourceFile="CacheShirt.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.example.generics.CacheString" sourceFile="CacheString.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="com.example.generics.Shirt" sourceFile="Shirt.java" interface="false" size="46" bugs="0"/>
+      <ClassStats class="com.example.generics.Stack" sourceFile="Stack.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.example.generics.StackTest" sourceFile="StackTest.java" interface="false" size="19" bugs="0"/>
+      <ClassStats class="com.example.generics.TestCacheAny" sourceFile="TestCacheAny.java" interface="false" size="14" bugs="0"/>
+      <ClassStats class="com.example.generics.TestCacheAnyDiamond" sourceFile="TestCacheAnyDiamond.java" interface="false" size="11" bugs="0"/>
+      <ClassStats class="com.example.generics.TestCacheObject" sourceFile="TestCacheObject.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1446" invocations="358" avgMicrosecondsPerInvocation="4041" maxMicrosecondsPerInvocation="42200" standardDeviationMicrosecondsPerInvocation="6551"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="1273" invocations="357" avgMicrosecondsPerInvocation="3567" maxMicrosecondsPerInvocation="84279" standardDeviationMicrosecondsPerInvocation="11106"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="412" invocations="21" avgMicrosecondsPerInvocation="19649" maxMicrosecondsPerInvocation="120398" standardDeviationMicrosecondsPerInvocation="30777"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="270" invocations="104" avgMicrosecondsPerInvocation="2598" maxMicrosecondsPerInvocation="85248" standardDeviationMicrosecondsPerInvocation="9370"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="221" invocations="325" avgMicrosecondsPerInvocation="682" maxMicrosecondsPerInvocation="48421" standardDeviationMicrosecondsPerInvocation="3273"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="204" invocations="58" avgMicrosecondsPerInvocation="3529" maxMicrosecondsPerInvocation="140716" standardDeviationMicrosecondsPerInvocation="18400"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="185" invocations="21" avgMicrosecondsPerInvocation="8843" maxMicrosecondsPerInvocation="68415" standardDeviationMicrosecondsPerInvocation="16261"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="180" invocations="33" avgMicrosecondsPerInvocation="5473" maxMicrosecondsPerInvocation="148011" standardDeviationMicrosecondsPerInvocation="25370"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison$SpecialTypeAnalysis" totalMilliseconds="166" invocations="19" avgMicrosecondsPerInvocation="8760" maxMicrosecondsPerInvocation="121946" standardDeviationMicrosecondsPerInvocation="26936"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="144" invocations="33" avgMicrosecondsPerInvocation="4384" maxMicrosecondsPerInvocation="61065" standardDeviationMicrosecondsPerInvocation="10707"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="139" invocations="33" avgMicrosecondsPerInvocation="4230" maxMicrosecondsPerInvocation="61413" standardDeviationMicrosecondsPerInvocation="10652"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="134" invocations="21" avgMicrosecondsPerInvocation="6405" maxMicrosecondsPerInvocation="74604" standardDeviationMicrosecondsPerInvocation="15893"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="134" invocations="33" avgMicrosecondsPerInvocation="4069" maxMicrosecondsPerInvocation="72294" standardDeviationMicrosecondsPerInvocation="12539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindRefComparison" totalMilliseconds="132" invocations="9" avgMicrosecondsPerInvocation="14668" maxMicrosecondsPerInvocation="122496" standardDeviationMicrosecondsPerInvocation="38140"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="130" invocations="33" avgMicrosecondsPerInvocation="3943" maxMicrosecondsPerInvocation="33224" standardDeviationMicrosecondsPerInvocation="8344"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="129" invocations="21" avgMicrosecondsPerInvocation="6182" maxMicrosecondsPerInvocation="49233" standardDeviationMicrosecondsPerInvocation="12982"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="126" invocations="33" avgMicrosecondsPerInvocation="3844" maxMicrosecondsPerInvocation="55583" standardDeviationMicrosecondsPerInvocation="9965"/>
+      <ClassProfile name="com.h3xstream.findsecbugs.taintanalysis.TaintDataflowEngine" totalMilliseconds="101" invocations="33" avgMicrosecondsPerInvocation="3067" maxMicrosecondsPerInvocation="21805" standardDeviationMicrosecondsPerInvocation="4921"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="100" invocations="21" avgMicrosecondsPerInvocation="4803" maxMicrosecondsPerInvocation="47620" standardDeviationMicrosecondsPerInvocation="10507"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

@@ -1,0 +1,6 @@
+projectKey=com.example.generics:coding-style
+serverUrl=http://training.devops.com:9000
+serverVersion=6.7.2.37468
+dashboardUrl=http://training.devops.com:9000/dashboard/index/com.example.generics:coding-style
+ceTaskId=AWItVDKwbmdTK1KJa9go
+ceTaskUrl=http://training.devops.com:9000/api/ce/task?id=AWItVDKwbmdTK1KJa9go
